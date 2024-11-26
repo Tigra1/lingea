@@ -17,7 +17,7 @@ def find_ean_and_quantity(text):
     # Проверяем, что количество найденных элементов совпадает
     if len(ean_codes) != len(quantities):
         return None
-
+    #djkdfjd
     return list(zip(ean_codes, quantities))
 
 @app.route('/', methods=['GET', 'POST'])
